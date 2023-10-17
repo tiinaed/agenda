@@ -2,10 +2,9 @@ import React from "react";
 import { useState } from "react";
 // import "module-alias/register";
 // import { User } from "@src";
-// import reactLogo from "../src/assets/react.svg";
-// import myFunction from "@myalias/src/assets/react.svg";
+import reactLogo from "./assets/react.svg";
 
-// import viteLogo from "../public/vite.svg";
+import viteLogo from "../public/vite.svg";
 import "./App.css";
 
 function App() {
@@ -14,12 +13,12 @@ function App() {
   return (
     <div>
       <div>
-        {/* <a href="https://vitejs.dev" target="_blank">
+        <a href="https://vitejs.dev" target="_blank">
           <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a> */}
-        {/* <a href="https://react.dev" target="_blank">
-          <img src={myFunction} className="logo react" alt="React logo" />
-        </a> */}
+        </a>
+        <a href="https://react.dev" target="_blank">
+          <img src={reactLogo} className="logo react" alt="React logo" />
+        </a>
       </div>
       <h1>Vite + React</h1>
       <div className="card">
